@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+
+@keyframes turn{
+    0%{stroke-dasharray: 10;}
+    100%{stroke-dasharray: 2;}
+}
+
+.cercle{
+    fill: none; stroke: white;
+    animation:turn 5s cubic-bezier(0.19, 1, 0.22, 1) infinite;
+    animation-direction: alternate-reverse;
+}

@@ -1,0 +1,7 @@
+.test1 div:nth-of-type(1) {
+  background-color: aqua;
+  width: 50px;
+}
+.test1 div:nth-of-type(1) h1:nth-of-type(1) {
+  color: green;
+}

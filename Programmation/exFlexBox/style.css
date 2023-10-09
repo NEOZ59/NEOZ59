@@ -1,0 +1,173 @@
+*{
+    margin: 10px;
+}
+
+.ex1{
+    justify-content: center;
+    background-color: blue;
+    height: 870px;
+}
+
+.ligne1{
+    display: flex;
+    flex: 1;
+    height: 100px;
+}
+
+.orange{
+    background-color: rgb(255, 94, 0);
+    flex: 1;
+    height: 100%;
+    border: solid black 5px;
+}
+
+.ligne2{
+    display: flex;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.gris{
+    background-color: rgb(102, 102, 102);
+    flex: 1;
+    height: 100%;
+    border: solid black 5px;
+}
+
+.jaune1{
+    background-color: yellow;
+    flex: 3;
+    height: 100%;
+    margin-left: 5px;
+    border: solid black 5px;
+}
+
+.ligne3{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vert{
+    background-color: rgb(0, 255, 0);
+    flex: 1;
+    height: 100%;
+    border: solid black 5px;
+}
+
+/* Exercice 2 */
+.ex2{
+    justify-content: center;
+    background-color: blue;
+    height: 870px;
+}
+
+.colonnedroite{
+    flex: 3;
+    height: 90%;
+    margin-left: 5px;
+    flex-direction: column;
+}
+
+.jaune2{
+    background-color: yellow;
+    flex: 1;
+    border: solid black 5px;
+    height: 30%;
+    margin: 0px 0px 4% 0px;
+}
+
+.bleue2{
+    background-color: rgb(0, 84, 194);
+    border: solid black 5px;
+    height: 30%;
+    margin: 0px 0px 4% 0px;
+}
+
+.pomme2{
+    background-color: rgb(159, 202, 123);
+    border: solid black 5px;
+    height: 30%;
+    margin: 0px 0px 4% 0px;
+}
+
+/* Exercice 3 */
+
+.ex3{
+    justify-content: center;
+    background-color: blue;
+    height: 870px;
+}
+
+.rectdouble1{
+    display: flex;
+    flex: 1;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.orange3{
+    background-color: orange;
+    flex: 1;
+    border: solid black 5px;
+    height: 100px;
+}
+
+.gris3{
+    background-color: rgb(102, 102, 102);
+    flex: 1;
+    border: solid black 5px;
+    height: 100px;
+}
+
+.ligne4{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jaune3{
+    background-color: yellow;
+    height: 100px;
+    flex: 1;
+    border: solid black 5px;
+}
+
+.ligne5{
+    display: flex;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ligne6{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Exercice 4 */
+
+.ex4{
+    justify-content: center;
+    background-color: blue;
+    height: 870px;
+}
+
+.gris4{
+    background-color: rgb(102, 102, 102);
+    flex: 1;
+    height: 15%;
+    flex-shrink: 1;
+    border: solid black 5px;
+}
+
+.colonnegauche{
+    flex: 1;
+    height: 100%;
+    margin-left: 5px;
+    flex-direction: column;
+}

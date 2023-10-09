@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 269px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.lien{
+    height: 10px;
+    margin: 9%;
+}
+
+.titre{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.texte{
+    position: absolute;
+}
+
+.Info{
+    width: 380px;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+}
+
+.un{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.presentation{
+    display: inline-block;
+    width: 780px;
+    height: 450px;
+    position: absolute;
+}
+
+.photo{
+    position: absolute;
+    width: 380px;
+    height: 450px;
+    right: 0cqmax;
+    top: 0cqmax;
+}
+
+.offre{
+    position: absolute;
+}
+
+.deux{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    margin-top: 7%;
+}
+
+.message{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+}
+
+.img2{
+    margin-top: 15%;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.propo{
+    position: absolute;
+    height: 196px;
+    width: 973px;
+    top: 90%;
+    display: flex;
+}
+
+.propo1{
+    background-color: #ffbc2c;
+    height: 196px;
+    width: 220px;
+    text-align: center;
+    margin-right: 27px;
+}
+
+.imgpropo{
+    width: 52px;
+    height: 52px;
+    transform: translateY(-50%);
+}
+
+.textepropo{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.trois{
+    width: 100%;
+    position: absolute;
+    top: 159%;
+    margin-top: 7%;
+    height: 400px;
+    text-align: center;
+}
+
+.soustitre{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Avis{
+    display: inline-block;
+    height: 200px;
+    width: 60%;
+    position: relative;
+}
+
+.avis1{
+    height: 200px;
+    width: 40%;
+    position: absolute;
+}
+
+.avis2{
+    height: 200px;
+    width: 40%;
+    position: absolute;
+    right: 0cqmax;
+}
+
+.quatre{
+    width: 100%;
+    position: absolute;
+    top: 210%;
+    margin-top: 7%;
+    background-color: #8da881;
+    height: 600px;
+    text-align: center;
+}
+
+.texteEsca{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.lieu{
+    position: absolute;
+    height: 360px;
+    width: 887px;
+    display: flex;
+    margin-left: 17%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.lieu1{
+    background-color: #ffbc2c;
+    height: 360px;
+    width: 218px;
+    text-align: center;
+    margin-right: 27px;
+}
+
+.imglieu{
+    width: 218px;
+    height: 300px;
+}

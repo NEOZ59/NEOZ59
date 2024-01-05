@@ -1,0 +1,17 @@
+.global-container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+video{
+    object-fit: cover;
+}
+
+@media screen and (max-width:500px){
+    #un{
+        flex-direction: column;
+    }
+    #deux{
+        flex-direction: column;
+    }
+}

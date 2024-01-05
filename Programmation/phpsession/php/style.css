@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: #444478;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  margin-top: 0px;
+}
+header nav {
+  margin-top: 0px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+header nav ul li {
+  margin-right: 10px;
+  font-size: 50px;
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}

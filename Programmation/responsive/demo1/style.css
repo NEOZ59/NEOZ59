@@ -1,0 +1,38 @@
+.container{
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.gauche{
+    height: 335px;
+    width: 500px;
+    background-image: url();
+    margin: 30px 15px;
+}
+
+.droite{
+    height: 335px;
+    width: 500px;
+    background-image: url();
+    margin: 30px 15px;
+}
+
+/* resposive */
+
+@media screen and(max-width:400px){
+    .body{
+        background-color: yellow;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .gauche{
+        background-image: url();
+        
+    }
+}

@@ -1,0 +1,20 @@
+.global-container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:430px){
+    header{height: 150px;}
+}
+
+@media screen and (min-width:431px) and (max-width:698px){
+    header{height: 60px}
+}
+
+@media screen and (min-width:699px) and (max-width:1199px){
+    header{height: 10px;}
+}
+
+@media screen and (min-width:1200px){
+    header{height: 30px;}
+}
